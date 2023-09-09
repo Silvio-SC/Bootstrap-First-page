@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+   height: max-content;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section:last-child {
+    padding: 0;
+}
+
+.list-contact {
+    list-style: none;
+}
+
+
+@media screen AND (min-width: 768px){
+    iframe {
+        width: 60%;   
+    }
+}
